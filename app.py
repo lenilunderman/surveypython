@@ -18,7 +18,8 @@ df = pd.read_excel(excel_file, sheet_name=sheet_name, usecols='B:D',header=3)
 
 df_participants = pd.read_excel(excel_file, sheet_name=sheet_name, usecols='F:G',header=3)
 
-
+st.dataframe(df)
+#st.table(df)
 ## st.dataframe(df) ## display the list 
 ## st.dataframe(df_participants) ## display the list based on departments 
 
